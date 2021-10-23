@@ -22,8 +22,8 @@ First, you must declare a variable of the desired array type. Second, you must a
 - [clone() array](./CopyArray.java):
 
 >
-a single dimensional array(Object[]) => “deep copy” <br>
-a multi-dimensional array(Object[][]) => “shallow copy”
+``a single dimensional array(Object[]) => deep copy``<br>
+``a multi-dimensional array(Object[][]) => shallow copy``
 
 
 ![Deep copy in a single dimensional array](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Blank-Diagram-Page-1-11.jpeg)
