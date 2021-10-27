@@ -6,6 +6,7 @@ import java.util.Date;
 public class Template {
 
 	public static void main(String[] args) {
+		// START: code check time
 		// TODO: prepare test case
 		
 		long startTime = System.nanoTime();
@@ -15,6 +16,10 @@ public class Template {
 		long endTime   = System.nanoTime();
 		long totalTime = endTime - startTime;
 		System.out.println("run with: "+totalTime);
+		// END: code check time
+		
+		// test feature
+		System.out.println(reverseString("string need reverse"));
 	}
 	
 	// In mảng 1 chiều
@@ -47,6 +52,16 @@ public class Template {
 	public static void sortArr(int[] arr) {
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));
+	}
+	
+	/**
+	 * Dưới đây là một cách để đảo ngược chuỗi
+	 * 
+	 * @param str
+	 * @return string reversed
+	 */
+	private static String reverseString(String str) {
+		return new StringBuilder(str).reverse().toString();
 	}
 
 }
